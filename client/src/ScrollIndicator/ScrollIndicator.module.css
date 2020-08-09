@@ -1,0 +1,25 @@
+.scrollDiv {
+	display: block;
+	width: 20%;
+	margin: auto;
+	text-align: center;
+	align-content: center;
+}
+
+.scrollImage {
+	width: 10%;
+	cursor: pointer;
+	margin: 4rem auto;
+	display: block;
+}
+
+.scrollImage:hover {
+	width: 15%;
+}
+
+@media (max-width: 1000px) {
+	.scrollDiv {
+		width: 25%;
+		margin: 7rem auto 1rem auto;
+	}
+}

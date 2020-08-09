@@ -1,0 +1,48 @@
+.container {
+	margin: 5rem 9.5rem;
+	width: 50%;
+	display: inline-block;
+}
+
+.quote {
+	color: #f4f6ff;
+	font-size: 400%;
+	font-weight: 900;
+}
+
+.add {
+	color: #fbd46d;
+	cursor: pointer;
+}
+
+.add:hover {
+	color: #4f8a8b;
+}
+
+@media (max-width: 1000px) {
+	.quote {
+		/* font-size: 2rem; */
+		font-size: 300%;
+		margin-top: 0;
+		text-align: center;
+	}
+	.container {
+		width: 50%;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+@media (max-width: 500px) {
+	.quote {
+		/* font-size: 2rem; */
+		font-size: 200%;
+		margin-top: 0;
+		text-align: center;
+	}
+	.container {
+		width: 50%;
+		margin: 0 auto;
+		text-align: center;
+	}
+}

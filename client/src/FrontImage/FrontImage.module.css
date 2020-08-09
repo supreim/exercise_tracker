@@ -1,0 +1,28 @@
+.imageDiv {
+	/* width: 40%; */
+	display: inline-block;
+	margin-top: 10rem;
+}
+
+.image {
+	width: 100%;
+}
+
+@media (max-width: 1000px) {
+	.imageDiv {
+		margin-top: 0rem;
+		width: 100%;
+		height: 100%;
+	}
+	/* .image {
+		height: 100%;
+	} */
+}
+
+@media (max-width: 500px) {
+	.imageDiv {
+		margin-top: 2rem;
+		width: 100vw;
+		height: 50vh;
+	}
+}

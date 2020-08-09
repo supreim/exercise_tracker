@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nav {
+	padding: 1rem;
+	position: fixed;
+	width: 100vw;
+	background-color: #fbd46d;
+	z-index: 900;
+}
+
+.navItem {
+	display: inline;
+	margin-left: 6rem;
+}
+
+.navItem a {
+	text-decoration: none;
+	color: #07031a;
+}
+
+.navItem a:hover {
+	color: teal;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.navContent {
+	display: inline;
+	list-style-type: none;
+}
+
+@media (max-width: 1000px) {
+	.nav {
+		display: none;
+	}
+}

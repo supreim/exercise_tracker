@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.App {
+	/* overflow: scroll; */
+}
+
+body {
+	background-color: #07031a;
+}
+
+.space {
+	height: 3rem;
+}
+
+.exeList {
+	align-content: center;
+	width: 100vw;
+	height: 100vh;
+	overflow: auto;
+	padding: 0 0;
+}
+
+.topSection {
+	display: grid;
+	grid-template-columns: 60% 40%;
+	grid-template-rows: 80% 20%;
+	grid-gap: 0 0;
+	align-content: center;
+	align-items: center;
+	justify-items: start;
+}
+
+.scroll {
+	grid-column: 2/3;
+	grid-row: 1/3;
+}
+
+@media (max-width: 1000px) {
+	.topSection {
+		grid-template-columns: 100%;
+		grid-row: 20% 20% 20%;
+	}
+}
+
+/* @media (max-width: 1230px) {
+	.exeList {
+		flex-direction: column;
+		overflow: scroll;
+	}
+} */
