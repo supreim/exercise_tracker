@@ -6,4 +6,4 @@ const getData = async () => {
 
 
 // export default getData;
-module.exports = getData;
+export default getData;
